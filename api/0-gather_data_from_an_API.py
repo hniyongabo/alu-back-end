@@ -1,11 +1,10 @@
+#!/usr/bin/python3
+
 import requests
 
-employee_id = int(input("Enter your employee ID: "))
-#error handling
-#if employee_id == invalid:
-#  print("Invalid ID, please try again")
-#else :
-#  continue
+employee_id = int(input("Enter your employee ID: ")
+
+
 url_users = f"https://jsonplaceholder.typicode.com/users/{employee_id}"
 response_user = requests.get(url_users)
 data_user = response_user.json()
