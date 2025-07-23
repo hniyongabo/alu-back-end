@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+"""This script handles the TODO list for an employee."""
+
 import requests
 
 employee_id = int(input("Enter your employee ID: ")
